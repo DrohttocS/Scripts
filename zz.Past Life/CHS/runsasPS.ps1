@@ -1,0 +1,1 @@
+Start-Process powershell_ise.exe -Credential "CHSspokane\hords"

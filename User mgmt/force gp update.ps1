@@ -1,0 +1,1 @@
+﻿get-adcomputer -SearchBase "OU=Member Servers,DC=RWC,DC=com" -Filter * | %{invoke-gpupdate -Computer $_.Name -RandomDelayInMinute 0; "Updating Host $_."}

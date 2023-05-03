@@ -1,0 +1,1 @@
+﻿Get-DhcpServerv4Scope -ComputerName twb-dc1 | Get-DhcpServerv4Lease -ComputerName twb-dc1

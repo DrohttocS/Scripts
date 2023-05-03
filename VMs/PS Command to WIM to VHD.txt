@@ -1,0 +1,7 @@
+http://lalit7jain.blogspot.com/2013/06/convert-your-custom-or-default-wim-file.html
+Steps to convert WIM to VHD/VHDX
+
+1. Open Windows Power shell with Admin privileged and run the following command
+	Set-ExecutionPolicy Unrestricted
+2. Move into the directory where your Script is stored and run the following command
+	.\Convert-WindowsImage.ps1 –ShowUI . 

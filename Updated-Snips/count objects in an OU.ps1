@@ -1,0 +1,1 @@
+﻿(Get-ADUser -SearchBase "ou=Disabled accounts,DC=rwc,dc=com" -filter * |Where-Object {$_.enabled -eq $false}).count

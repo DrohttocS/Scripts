@@ -1,0 +1,2 @@
+﻿$props = "SAMAccountName","Name","PasswordNeverExpires","Enabled","LockedOut","PasswordLastSet","LastLogOnDate","CanonicalName","lastlogontimestamp"
+$results = Get-ADUser -Filter * -Properties $props -SearchBase "ou=Disabled Users,DC=CHSspokane,dc=local" | Select $props | Out-GridView #Export-Csv -Path "C:\Users\scohor\Desktop\Disabled RWC accounts.csv" -NoTypeInformation

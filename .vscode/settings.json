@@ -1,7 +1,8 @@
 {
+    "powershell.codeFormatting.useCorrectCasing": true,
     "workbench.colorCustomizations": {
-        "activityBar.background": "#073335",
-        "titleBar.activeBackground": "#09484A",
-        "titleBar.activeForeground": "#F1FDFD"
+        "activityBar.background": "#113505",
+        "titleBar.activeBackground": "#174A07",
+        "titleBar.activeForeground": "#F3FEEF"
     }
 }
