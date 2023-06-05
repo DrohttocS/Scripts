@@ -1,7 +1,7 @@
 ﻿Connect-MsolService
 Connect-AzureAD
-Connect-MgGraph
 Connect-MgGraph -ClientID f324340f-1589-43ea-b7c0-9e7552bca398 -TenantId c6cb47f3-d8a4-47d0-8139-b43165edd882
+select-mgprofile -name beta
 
 # A36392@gsfglobal.onmicrosoft.com
 
